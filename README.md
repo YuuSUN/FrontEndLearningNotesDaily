@@ -3,10 +3,10 @@
 
 Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun  
 :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
-March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)|||||
+March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)| 2 ||||
 
 - [Day One: HTML Basics](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)
-
+- [Day Two: HTML Semantic Elements]
 
 
 ### 【2020/03/18】Day One: HTML Basics
@@ -49,4 +49,13 @@ By placing that rule in a separate file, the style may be shared by any number o
 For more information about HTML and CSS, see [tutorials for HTML and CSS](https://www.w3.org/2002/03/tutorials.html#webdesign_htmlcss).  
 
 For advanced document transformations and layout beyond CSS, see [XSLT](https://www.w3.org/standards/xml/transformation) & [XSL-FO](https://www.w3.org/standards/xml/publishing).
+
+
+
+### 【2020/03/19】Day Two: HTML Semantic Elements 
+#### 1. What are semantic elements
+- Semantic elements = elements with a meaning 
+- Semantic elements describes its meaning to both the browser and the developer.
+- Examples of **none-semantic** elements: ``` <div>``` and ``` <span>``` - Tells nothing about its content.
+- Examples of **semantic** elements: ``` <form>``` ,``` <table>``` and ``` <article>``` - Clearly defines its content.
 
