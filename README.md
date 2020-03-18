@@ -15,7 +15,7 @@ March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#2020
 - Hypertext Markup Language. e.g. If you want to publish the content of rich-text on the forum, you need some codes additionally. 
 
 ```html
-[del]hehe[/del]
+[del]Arschloch[/del]
 ``` 
 - indicates the text between labels should be deleted. Strikethrough effect will be added by default. 
 - HTML and CSS(Cascading Style Sheet 层叠样式表)are two of the core technologies for building web pages. HTML builds the structure of page, CSS the layout. 
