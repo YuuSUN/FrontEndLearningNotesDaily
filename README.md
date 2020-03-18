@@ -3,9 +3,9 @@
 
 Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun  
 :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
-March 16-22  | | | [1](https://github.com/vivi3nli/LeetCodeDaily#20180613%E9%A2%98%E7%9B%AE)|||||
+March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)|||||
 
-- [Day One: HTML Basics](https://github.com/YuuSUN/FrontEndLearningNotesDaily/blob/master/README.md#20200318day-one-html-basics)
+- [Day One: HTML Basics](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)
 
 
 
