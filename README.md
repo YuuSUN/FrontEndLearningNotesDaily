@@ -29,7 +29,10 @@ March 16-22  | | | [1](https://github.com/vivi3nli/LeetCodeDaily#20180613%E9%A2%
 - Tools for adding dynamic effects to web pages
 - e.g. Creat a ```<div>```（块级元素）window when mouse hovering over the label.
 
-#### Examples
+#### 4. What is CSS
+- CSS is the language for describing the presentation of web pages, including colors, layout and fonts. It allows one to adapt the presentation to different types of devices. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments.
+
+#### 5. Examples
 The following very simple example of a portion of an HTML document illustrates how to create a link within a paragraph. When rendered on the screen (or by a speech synthesizer), the link text will be “final report”; when somebody activates the link, the browser will retrieve the resource identified by “http://www.example.com/report”:
 ```
 <p class="moreinfo">For more information see the
@@ -42,7 +45,7 @@ The class attribute on the paragraph's start tag (“<p>”) can be used, among 
 ``` 
 By placing that rule in a separate file, the style may be shared by any number of HTML documents.
 
-#### More Information
-For more information about HTML and CSS, see [tutorials for HTML and CSS](https://www.w3.org/2002/03/tutorials.html#webdesign_htmlcss).
+#### 6. More Information
+For more information about HTML and CSS, see [tutorials for HTML and CSS](https://www.w3.org/2002/03/tutorials.html#webdesign_htmlcss). 
 For advanced document transformations and layout beyond CSS, see [XSLT](https://www.w3.org/standards/xml/transformation) & [XSL-FO](https://www.w3.org/standards/xml/publishing).
 
