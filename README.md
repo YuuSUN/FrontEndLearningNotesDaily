@@ -6,7 +6,7 @@ Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun
 March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)| [2](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements) ||||
 
 - [Day One: HTML Basics](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)
-- [Day Two: HTML Semantic Elements]（https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements）
+- [Day Two: HTML Semantic Elements](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements)
 
 
 ### 【2020/03/18】Day One: HTML Basics
@@ -52,9 +52,9 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 
 
 
+ 
 
-
-
+ 
 ### 【2020/03/19】Day Two: HTML Semantic Elements 
 #### 1. What are semantic elements
 - Semantic elements = elements with a meaning 
