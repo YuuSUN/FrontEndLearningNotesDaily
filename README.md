@@ -17,7 +17,7 @@ March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#2020
 ```html
 [del]Arschloch[/del]
 ``` 
-- indicates the text between labels should be deleted. Strikethrough effect will be added by default. 
+- The example indicates the text between labels should be deleted. Strikethrough effect will be added by default. 
 - HTML and CSS(Cascading Style Sheet 层叠样式表)are two of the core technologies for building web pages. HTML builds the structure of page, CSS the layout. 
 - retrieve online information via hypertext links, at the click of a button.
 - With HTML, authors describe the structure of pages using markup. The elements of the language label pieces of content such as “paragraph,” “list,” “table,” and so on.
