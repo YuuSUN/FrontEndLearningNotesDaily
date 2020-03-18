@@ -46,6 +46,7 @@ The class attribute on the paragraph's start tag (“<p>”) can be used, among 
 By placing that rule in a separate file, the style may be shared by any number of HTML documents.
 
 #### 6. More Information
-For more information about HTML and CSS, see [tutorials for HTML and CSS](https://www.w3.org/2002/03/tutorials.html#webdesign_htmlcss). 
+For more information about HTML and CSS, see [tutorials for HTML and CSS](https://www.w3.org/2002/03/tutorials.html#webdesign_htmlcss).  
+
 For advanced document transformations and layout beyond CSS, see [XSLT](https://www.w3.org/standards/xml/transformation) & [XSL-FO](https://www.w3.org/standards/xml/publishing).
 
