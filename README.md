@@ -79,9 +79,24 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - HTML is Not Case Sensitive: ```<P>``` means the same as ```<p>```. 
 
 #### 5. Semantic elements in html
+- "A semantic Web allows data to be shared and reused across applications, enterprises, and communities."
 - Many web sites contain HTML code like: ```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
 - ```<article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>```
-
+- The ```<nav>``` element defines a set of navigation links.
+- Notice that NOT all links of a document should be inside a ```<nav>``` element. The ```<nav>``` element is intended only for major block of navigation links.
+- An image and a caption can be grouped together in a ```<figure>``` element. The purpose of a caption is to add visual explaination to an image. It speicifies self contained content, like illustrations, diagrams, photos, code listings, etc.
+```
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+```
+- The ```<img>``` element defines the image. The ```<figcaption>``` element defines the caption.
+- ```<details>``` defines additional details that the user can view or hide.
+- ```<main>``` defines the main content of a document. 
+- ```<mark>``` defines the marked or highlighted text.
+- ```<summary>``` defines a visible heading for a ```<details>``` element.
+  
 #### 6. Nesting article in section or Vice Versa?
 - The```<article>``` element specifies independent, self-contained content.
 - The ```<section>``` element defines section in a document.
