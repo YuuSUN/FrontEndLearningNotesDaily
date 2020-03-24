@@ -23,7 +23,7 @@ March 23-29 | | [3](https://github.com/YuuSUN/FrontEndLearningNotesDaily/blob/ma
 - HTML and CSS(Cascading Style Sheet 层叠样式表)are two of the core technologies for building web pages. HTML builds the structure of page, CSS the layout. 
 - retrieve online information via hypertext links, at the click of a button.
 - With HTML, authors describe the structure of pages using markup. The elements of the language label pieces of content such as “paragraph,” “list,” “table,” and so on.
-- A simple HTML document: Only the content inside the <body> section is displayed in a browser.
+- A simple HTML document: Only the content inside the ``` <body>```  section is displayed in a browser.
 ``` 
 <head>
 <title>Page Title</title>
