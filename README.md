@@ -3,10 +3,11 @@
 
 Week | Mon | Tue | Wed | Thu | Fri | Sat | Sun  
 :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-:
-March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)| [2](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements) ||||
+March 16-22  | | | [1](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)| [2](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements) | | | | March 23-29 | | [3]() |
 
 - [Day One: HTML Basics](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200318day-one-html-basics)
 - [Day Two: HTML Semantic Elements](https://github.com/YuuSUN/FrontEndLearningNotesDaily#20200319day-two-html-semantic-elements)
+- [Day Three: CSS Basics]
 
 
 ### 【2020/03/18】Day One: HTML Basics
@@ -140,4 +141,4 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 ```
 
-
+### 【2020/03/24】Day Three: CSS Basics
