@@ -125,3 +125,19 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 ```
 <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
 ```
+- Image as a link
+```
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+```
+- Button as a link. To use a html button as a link, you have to add some javascript code. Javascipt allows you to specify what happens at certain events, such as a click of a button.
+```
+<button onclick="document.location = 'default.asp'">HTML Tutorial</button>
+```
+- The **title** attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+```
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+```
+
+
