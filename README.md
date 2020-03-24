@@ -63,7 +63,7 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - Examples of **semantic** elements: ``` <form>``` ,``` <table>``` and ``` <article>``` - Clearly defines its content.
 
 #### What is HTML5
-- HTML 5 is the newest standard of html, it has more abundant semantics, graphics and multimedia contents. 
+- HTML5 is the newest standard of html, it has more abundant semantics, graphics and multimedia contents. 
 
 #### What is doctype 
 - ```<!DOCTYPE>``` declaration help the browser show the web correctly. 
@@ -76,7 +76,7 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - HTML elements can be nested (elements can contain elements).
 - The ```<html>``` element defines the whole document. Inside the <html> element is the <body> document. 
 - HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.
-- HTML is Not Case Sensitive: ```<P>``` means the same as ```<html>```. 
+- HTML is Not Case Sensitive: ```<P>``` means the same as ```<p>```. 
 
 ####
   
