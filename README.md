@@ -62,21 +62,29 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - Examples of **none-semantic** elements: ``` <div>``` and ``` <span>``` - Tells nothing about its content.
 - Examples of **semantic** elements: ``` <form>``` ,``` <table>``` and ``` <article>``` - Clearly defines its content.
 
-#### What is HTML5
+#### 2. What is HTML5
 - HTML5 is the newest standard of html, it has more abundant semantics, graphics and multimedia contents. 
 
-#### What is doctype 
+#### 3. What is doctype 
 - ```<!DOCTYPE>``` declaration help the browser show the web correctly. 
 - HTML has many different versions. Only when the browser understand the exact version of html can it show the content correctly.
 
-#### HTML Emelments 
+#### 4. HTML Emelments 
 - An HTML element usually consists of **start** tag and an **end** tag. ```<tagname>content goes here</tagname>```
 - The html element is everything from the start tag to the end tag. 
 - HTML elements with no content are called empty elements. Empty elements do not have an end tag such as the ```<br>```element (which indicates a line break)
 - HTML elements can be nested (elements can contain elements).
-- The ```<html>``` element defines the whole document. Inside the <html> element is the <body> document. 
+- The ```<html>``` element defines the whole document. Inside the ```<html>``` element is the ```<body>``` element. 
 - HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.
 - HTML is Not Case Sensitive: ```<P>``` means the same as ```<p>```. 
 
-####
+#### 5. Semantic elements in html
+- Many web sites contain HTML code like: ```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
+- ```<article> <aside> <details> <figcaption> <figure> <footer> <header> <main> <mark> <nav> <section> <summary> <time>```
+
+#### 6. Nesting article in section or Vice Versa?
+- The```<article>``` element specifies independent, self-contained content.
+- The ```<section>``` element defines section in a document.
+- You will also find pages with ```<section>``` elements containing ```<section>``` elements, and ```<article>``` elements containing ```<article>``` elements.
+- Example for a newspaper: The sport ```<article>``` in the sport **section**, may have a technical **section** in each ```<article>```.
   
