@@ -38,7 +38,7 @@ The following very simple example of a portion of an HTML document illustrates h
 <p class="moreinfo">For more information see the
 <a href="http://www.example.com/report">final report</a>.</p>
 ``` 
-The class attribute on the paragraph's start tag (“<p>”) can be used, among other thing, to add style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could write, in CSS:    
+The class attribute on the paragraph's start tag (“```<p>```”) can be used, among other thing, to add style. For instance, to italicize the text of all paragraphs with a class of “moreinfo,” one could write, in CSS:    
 
 ``` 
   p.moreinfo { font-style: italic }
@@ -66,7 +66,7 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - HTML 5 is the newest standard of html, it has more abundant semantics, graphics and multimedia contents. 
 
 #### What is doctype 
-- <!DOCTYPE> declaration help the browser show the web correctly. 
+- ```<!DOCTYPE>``` declaration help the browser show the web correctly. 
 - HTML has many different versions. Only when the browser understand the exact version of html can it show the content correctly.
 
 #### HTML Emelments 
@@ -76,7 +76,7 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - HTML elements can be nested (elements can contain elements).
 - The ```<html>``` element defines the whole document. Inside the <html> element is the <body> document. 
 - HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.
-- HTML is Not Case Sensitive: : <P> means the same as <p>.
+- HTML is Not Case Sensitive: ```<P>``` means the same as ```<html>```. 
 
 ####
   
