@@ -103,3 +103,25 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 - You will also find pages with ```<section>``` elements containing ```<section>``` elements, and ```<article>``` elements containing ```<article>``` elements.
 - Example for a newspaper: The sport ```<article>``` in the sport **section**, may have a technical **section** in each ```<article>```.
   
+#### 7. HTML Links
+- When you move the mouse over a link, the mouse arrow will turn into a little hand.
+- A link does not have to be text. It can be an image or any other HTML element.
+- Syntax: Hyperlinks are defined with the HTML ```<a>``` tag.
+```<a href="url">link text</a>```
+- The **href** attibute specifies the destination address of the link.
+- The **Link text** is the visible part. 
+- Note: Without a forward slash at the end of subfolder addresses, you might generate two requests to the server. Many servers will automatically add a forward slash to the end of the address, and then create a new request.
+- A local link (link to the same web site) is specified with a relative URL (without https://www....).
+```
+<p><a href="html_images.asp">HTML Images</a> is a link to a page on this website.</p>
+<p><a href="https://www.w3.org/">W3C</a> is a link to a website on the World Wide Web. An absolute URL (a full web address)</p>
+```
+- The ```<target>``` attribute specifies where to open the linked document. It has different values.
+- ```_blank``` Opens the linked document in a new window or tab
+- ```_self``` Opens the linked document in the same window/tab as it was clicked (this is default)
+- ```_parent``` Opens the linked document in the parent frame
+- ```_top``` Opens the linked document in the full body of the window
+- framename - Opens the linked document in a named frame
+```
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+```
