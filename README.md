@@ -197,3 +197,14 @@ div.warning {
   </div>
 </div>
 ```
+- "div.warning" (which makes any div element with the class "warning" look like a warning box), and "#customized", which sets the base font of the element with the ID "customized" to 16-pixel tall font.
+- You can target multiple selectors at once, by separating the selectors with a comma. ```p, li { }```
+
+#### 3. Adding css to our document 
+- Create a file in the same folder as your HTML document and save it as styles.css. The .css extension shows that this is a CSS file.
+- To link **styles.css** to **index.html** add the following line somewhere inside the ```<head>``` of the HTML document:
+```
+<link rel="stylesheet" href="styles.css">
+```
+- This ```<link> ```element tells the browser that we have a stylesheet, using the rel attribute, and the location of that stylesheet as the value of the href attribute. 
+
