@@ -208,3 +208,8 @@ div.warning {
 ```
 - This ```<link> ```element tells the browser that we have a stylesheet, using the rel attribute, and the location of that stylesheet as the value of the href attribute. 
 
+#### 4. Adding a class
+- You want to select a subset of the elements without changing the others. 
+- In HTML document add a class attibute: ```<li class="special">Item two</li>```
+- In CSS document you can target the class of **special** by creating a selector that starts with a full stop character: ```.special { }```
+
