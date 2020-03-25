@@ -213,3 +213,7 @@ div.warning {
 - In HTML document add a class attibute: ```<li class="special">Item two</li>```
 - In CSS document you can target the class of **special** by creating a selector that starts with a full stop character: ```.special { }```
 
+#### 5. Styling things based on their location in a document 
+- descendant combinator（后代选择器）: A selector to select an element that is nested inside an another element. ```li em { }```
+- adjacent sibling combinator（相邻选择器）: A selector to select an element directly after an another element at the same hierarchy. ```h1 + p { }```
+- More ways to target elements: [CSS selector summary](https://www.w3cschool.cn/css/css-selector.html)
