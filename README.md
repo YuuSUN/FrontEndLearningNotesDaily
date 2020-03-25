@@ -150,3 +150,50 @@ For advanced document transformations and layout beyond CSS, see [XSLT](https://
 ```
 
 ### 【2020/03/24】Day Three: CSS Basics
+#### 1. What is CSS 
+- CSS is used to style and lay out web pages such as alter the font, spacing of the content, split it into multiple columns or add animations or other decorative features. 
+- A browser is sometimes called a user agent, which basically means a computer program that represents a person inside a computer system. Browsers are the main type of user agent we think of when talking about CSS, however, it is not the only one. There are other user agents available — such as those which convert HTML and CSS documents into PDFs to be printed.
+
+#### 2. CSS syntax 
+```
+h1 {
+    color: red;
+    font-size: 5em;
+}
+```
+- The rule opens with a selector. It selects the HTML element that we are going to style. In this case we are styling level one headings h1.
+- We then have a set of curly braces ``` { }```. Inside those will be one or more declarations, which take the form of **property** and **form** pairs. Each pair specifies a property of the element we are selecting, then a value that we'd like to give the property. 
+- Before the colon, we have the property, and after the colon, the value. 
+- A CSS selector is part of a CSS rule that describes what element in a document the rule will match. 
+```
+p {
+  color: green;
+}
+
+div.warning {
+  width: 100%;
+  border: 2px solid yellow;
+  color: white;
+  background-color: darkred;
+  padding: 0.8em 0.8em 0.6em;
+}
+
+#customized {
+  font: 16px Lucida Grande, Arial, Helvetica, sans-serif;
+}
+```
+```
+<p>This is happy text.</p>
+
+<div class="warning">
+  Be careful! There are wizards present, and they are quick to anger!
+</div>
+
+<div id="customized">
+  <p>This is happy text.</p>
+
+  <div class="warning">
+    Be careful! There are wizards present, and they are quick to anger!
+  </div>
+</div>
+```
