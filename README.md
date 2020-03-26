@@ -198,6 +198,7 @@ div.warning {
   </div>
 </div>
 ```
+- A property paired with a value is called a CSS declaration.
 - "div.warning" (which makes any div element with the class "warning" look like a warning box), and "#customized", which sets the base font of the element with the ID "customized" to 16-pixel tall font.
 - You can target multiple selectors at once, by separating the selectors with a comma. ```p, li { }```
 
@@ -220,6 +221,60 @@ div.warning {
 - More ways to target elements: [CSS selector summary](https://www.w3cschool.cn/css/css-selector.html)
 
 #### 6. Styling things based on state
+- a straightforward example of this is when styling links. When we style a link we need to target ```<a>```(anchor) element. This has different states depends on whether it is unvisited, visited, being hovered over, focused via the keyboard, or in the process of being clicked (activated)
+```
+a:link {
+  color: pink;
+}
 
+a:visited {
+  color: green;
+}
+```
+#### 7. How CSS is structured
+- External Stylesheet 
+```
+<!-- Inside a subdirectory called styles inside the current directory -->
+<link rel="stylesheet" href="styles/style.css">
+
+<!-- Inside a subdirectory called general, which is in a subdirectory called styles, inside the current directory -->
+<link rel="stylesheet" href="styles/general/style.css">
+
+<!-- Go up one directory level, then inside a subdirectory called styles -->
+<link rel="stylesheet" href="../styles/style.css">
+```
+- Internal Stylesheet: An internal stylesheet is where you don't have an external CSS file, but instead place your CSS inside a ```<style>``` element contained inside the HTML ```<head>```.
+```
+<head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+    <style>
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+```
+- Inline styles. They are css declarations that affect one element only, contained within a **style** attribute.
+```<h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>```
+- Valid selectors
+```
+h1
+a:link
+.manythings
+#onething
+*
+.box p
+.box p:first-child
+h1, h2, .intro
+```
+#### 8. which rule will win in the event of a collision
+- These are called cascade or specificity. The paragraph ends up being colored blue. This is because the declaration that sets it to blue appears later in the stylesheet, and later styles override earlier ones. This is the cascade in action.
+- However, the class will win the element over, even though it appears earlier in the stylesheet. A class is described as being more specific, or having more specificity than the element selector, so it wins.
 
 ### 【2020/03/25】Day Four: Styling Design
+#### 1. Function
+- While most values are relatively simple keywords or numeric values, there are some possible values which take the form of a function.
+- calc() function. This function allows you to do simple math from within your CSS.
