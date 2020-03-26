@@ -257,7 +257,7 @@ a:visited {
     </style>
   </head>
 ```
-- Inline styles. They are css declarations that affect one element only, contained within a **style** attribute.
+- Inline styles. They are css declarations that affect one element only, contained within a **style** attribute. 
 ```<h1 style="color: blue;background-color: yellow;border: 1px solid black;">Hello World!</h1>```
 - Valid selectors
 ```
