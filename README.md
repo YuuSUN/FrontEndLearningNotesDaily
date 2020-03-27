@@ -280,5 +280,40 @@ h1, h2, .intro
 - calc() function. This function allows you to do simple math from within your CSS.
 - ```width: calc(90% - 30px); ```Asking for the width of this box to be 90% of the containing block width, minus 30 pixels.
 - transform: rotate(0.8turn)
-#### @rules
-- Some @rules are simple with the rule name and a value. For example, to import an additional stylesheet into your main CSS stylesheet you can use @import:
+#### 2. @rules
+- Some **@rules** are simple with the rule name and a value. For example, to import an additional stylesheet into your main CSS stylesheet you can use **@import**: ``` @import 'styles2.css';```
+- One of the most common @rules you will come across is **@media**, which allows you to use media queries to apply CSS only when certain conditions are true (e.g. when the screen resolution is above a certain amount, or the screen is wider than a certain width).
+#### 3. Shorthands
+- Some properties like font, background, padding, border, and margin are called shorthand properties — this is because they allow you to set several property values in a single line, saving time and making your code neater in the process.
+```/* In 4-value shorthands like padding and margin, the values are applied
+   in the order top, right, bottom, left (clockwise from the top). There are also other 
+   shorthand types, for example 2-value shorthands, which set padding/margin
+   for top/bottom, then left/right */
+padding: 10px 15px 15px 5px;
+```
+#### 4. How does CSS actually work
+- The browser converts the HTML into a DOM (Document Object Model). The DOM represents the document in the computer's memory.
+- The browser then fetches most of the resources that are linked to by the HTML document, such as embedded images and videos ... and linked CSS! JavaScript is handled a bit later on in the process.
+- The browser parses the fetched CSS, and sorts the different rules by their selector types into different "buckets", e.g. element, class, ID, and so on. Based on the selectors it finds, it works out which rules should be applied to which nodes in the DOM, and attaches style to them as required (this intermediate step is called a render tree).
+- The render tree is laid out in the structure it should appear in after the rules have been applied to it.
+- About the DOM. A DOM has a tree-like structure. Each element, attribute, and piece of text in the markup language becomes a DOM node in the tree structure. The nodes are defined by their relationship to other DOM nodes. Some elements are parents of child nodes, and child nodes have siblings.
+- How a real HTML snippet is converted into a DOM:
+```
+<p>
+  Let's use:
+  <span>Cascading</span>
+  <span>Style</span>
+  <span>Sheets</span>
+</p>
+```
+- In the DOM, the node corresponding to our <p> element is a parent. Its children are a text node and the three nodes corresponding to our <span> elements. The SPAN nodes are also parents, with text nodes as their children:
+```
+P
+├─ "Let's use:"
+├─ SPAN
+|  └─ "Cascading"
+├─ SPAN
+|  └─ "Style"
+└─ SPAN
+   └─ "Sheets"
+```
