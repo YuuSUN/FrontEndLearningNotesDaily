@@ -320,3 +320,7 @@ P
 - Applying CSS to the DOM: The browser will apply that rule to each one of the three ```<span>```s, then paint the final visual representation to the screen. 
 - What happens if a browser encounters css it doesn't understand: It does nothing and just moves on to the next bit of css.
 
+#### 5. Text and font styling
+- Bear in mind that the text inside an element is all affected as one single entity. You can't select and style subsections of text unless you wrap them in an appropriate element (such as a ```<span>``` or ```<strong>```), or use a text-specific pseudo-element like ::first-letter (selects the first letter of an element's text), ::first-line (selects the first line of an element's text), or ::selection (selects the text currently highlighted by the cursor.)
+- 
+  
