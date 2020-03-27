@@ -322,5 +322,8 @@ P
 
 #### 5. Text and font styling
 - Bear in mind that the text inside an element is all affected as one single entity. You can't select and style subsections of text unless you wrap them in an appropriate element (such as a ```<span>``` or ```<strong>```), or use a text-specific pseudo-element like ::first-letter (selects the first letter of an element's text), ::first-line (selects the first line of an element's text), or ::selection (selects the text currently highlighted by the cursor.)
-- 
+- px (pixels): The number of pixels high you want the text to be. This is an absolute unit — it results in the same final computed value for the font on the page in pretty much any situation.
+- **em**s: 1 em is equal to the font size set on the parent element of the current element we are styling (more specifically, the width of a capital letter M contained inside the parent element.) This can become tricky to work out if you have a lot of nested elements with different font sizes set, but it is doable, as you'll see below. Why bother? It is quite natural once you get used to it, and you can use **em** to size everything, not just text. You can have an entire website sized using em, which makes maintenance easy.
+- **rem**s: These work just like **em**, except that 1 **rem** is equal to the font size set on the root element of the document (i.e. ```<html>```), not the parent element. This makes doing the maths to work out your font sizes much easier, although if you want to support really old browsers, you might struggle — rem is not supported in Internet Explorer 8 and below.
+
   
