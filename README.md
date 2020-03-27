@@ -278,3 +278,7 @@ h1, h2, .intro
 #### 1. Function
 - While most values are relatively simple keywords or numeric values, there are some possible values which take the form of a function.
 - calc() function. This function allows you to do simple math from within your CSS.
+- ```width: calc(90% - 30px); ```Asking for the width of this box to be 90% of the containing block width, minus 30 pixels.
+- transform: rotate(0.8turn)
+#### @rules
+- Some @rules are simple with the rule name and a value. For example, to import an additional stylesheet into your main CSS stylesheet you can use @import:
