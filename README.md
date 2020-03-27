@@ -306,7 +306,7 @@ padding: 10px 15px 15px 5px;
   <span>Sheets</span>
 </p>
 ```
-- In the DOM, the node corresponding to our <p> element is a parent. Its children are a text node and the three nodes corresponding to our <span> elements. The SPAN nodes are also parents, with text nodes as their children:
+- In the DOM, the node corresponding to our ```<p>``` element is a parent. Its children are a text node and the three nodes corresponding to our``` <span> ```elements. The SPAN nodes are also parents, with text nodes as their children:
 ```
 P
 ├─ "Let's use:"
@@ -317,3 +317,6 @@ P
 └─ SPAN
    └─ "Sheets"
 ```
+- Applying CSS to the DOM: The browser will apply that rule to each one of the three ```<span>```s, then paint the final visual representation to the screen. 
+- What happens if a browser encounters css it doesn't understand: It does nothing and just moves on to the next bit of css.
+
