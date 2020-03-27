@@ -326,5 +326,7 @@ P
 - px (pixels): The number of pixels high you want the text to be. This is an absolute unit — it results in the same final computed value for the font on the page in pretty much any situation.
 - **em**s: 1 em is equal to the font size set on the parent element of the current element we are styling (more specifically, the width of a capital letter M contained inside the parent element.) This can become tricky to work out if you have a lot of nested elements with different font sizes set, but it is doable, as you'll see below. Why bother? It is quite natural once you get used to it, and you can use **em** to size everything, not just text. You can have an entire website sized using em, which makes maintenance easy.
 - **rem**s: These work just like **em**, except that 1 **rem** is equal to the font size set on the root element of the document (i.e. ```<html>```), not the parent element. This makes doing the maths to work out your font sizes much easier, although if you want to support really old browsers, you might struggle — rem is not supported in Internet Explorer 8 and below.
-
-  
+- **Text-transform**: **Capitalize** transforms all words to Have The First Letter Capitalized.
+- **Text-align**: **justify** makes the text spread out, varing the gaps in between the words so that all lines of text are the same width. If you are going to use this, you should also think about using something else along with it, such as **hyphens**, to break some of the longer words across lines.
+**letter-spacing** and **word-spacing** improve the legibility of a particularly dense font. apply it to the first line: ```p::first-line {}```
+**Opacity**: When using the opacity property to add transparency to the background of an element, all of its child elements **inherit the same transparency**. This can make the text inside a fully transparent element hard to read.
